@@ -1,0 +1,98 @@
+name: Bug Report
+description: Report a bug or issue with Guardian
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! Please fill out the form below to help us investigate.
+
+  - type: input
+    id: version
+    attributes:
+      label: Guardian Version
+      description: Found in Options > About (e.g., v1.0.0)
+      placeholder: v1.0.0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Windows Version
+      options:
+        - Windows 11
+        - Windows 10
+    validations:
+      required: true
+
+  - type: input
+    id: hardware
+    attributes:
+      label: Hardware
+      description: Your CPU, GPU and motherboard
+      placeholder: e.g., Ryzen 7 7800X3D, RTX 4090, ASUS ROG STRIX X670E-E
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part of Guardian?
+      options:
+        - Temperatures or tray icons
+        - Fan control
+        - Alarms
+        - Sensor List
+        - Options or startup
+        - Installer or updates
+        - Something else
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the bug clearly. What did you expect vs what actually happened?
+      placeholder: |
+        Expected: The front fan follows the CPU curve
+        Actual: The fan stays at 100% after the CPU cools down
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce this issue?
+      placeholder: |
+        1. Open Guardian
+        2. Click the Front fan and set Temperature Curve
+        3. Watch the fan speed after a game closes
+    validations:
+      required: true
+
+  - type: textarea
+    id: sensors
+    attributes:
+      label: Sensor List
+      description: |
+        Open the Sensor List (waveform icon in Guardian's header), click Copy All, and paste it here.
+        It shows every sensor Guardian can read on your PC and helps with temperature and fan issues.
+      render: text
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log File
+      description: |
+        Drag %LOCALAPPDATA%\Guardian\guardian.log into this box, or paste the relevant entries.
+      placeholder: Drag the log file here or paste log entries...
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Anything else that might help? Screenshots, fan settings, other monitoring or fan tools you run, etc.
