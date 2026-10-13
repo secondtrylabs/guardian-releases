@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/logo.png" alt="Guardian" width="420" />
+  <img src="https://github.com/user-attachments/assets/bc461b7c-2293-4160-94c0-b9ac60c059c3" alt="Guardian" width="420" />
 </p>
 
 <p align="center"><b>CPU and GPU Temperature Monitor and Fan Controller for Windows</b></p>
@@ -7,7 +7,7 @@
 Guardian keeps your CPU and GPU temperatures in the system tray where you can always see them, and opens into a dashboard with live gauges, history charts, every fan in your system, and fan control based on CPU or GPU temperature. If something goes wrong, such as a chip running hot or a fan or pump stopping, Guardian sounds an alarm until you deal with it.
 
 <p align="center">
-  <img src="images/dashboard.png" alt="Guardian dashboard" width="760" />
+  <img src="https://github.com/user-attachments/assets/e003983f-ad22-413b-b47d-a9c03876d3c8" alt="Guardian dashboard" width="760" />
 </p>
 
 Developed by **SecondTry Labs**
@@ -49,7 +49,7 @@ Developed by **SecondTry Labs**
 
 ## Tray Temperatures
 
-<img src="images/tray.png" alt="CPU and GPU temperatures in the system tray" width="80" />
+<img src="https://github.com/user-attachments/assets/cc04452b-6cf8-4304-b908-61be44b9541c" alt="CPU and GPU temperatures in the system tray" width="80" />
 
 Guardian puts two live temperatures next to the clock:
 - **Orange strip:** CPU temperature
@@ -81,7 +81,7 @@ The **Cooling** card lists every fan Guardian can see, on the graphics card and 
 Click any fan to open its settings:
 
 <p align="center">
-  <img src="images/fan-editor.png" alt="Fan settings with a temperature curve" width="480" />
+  <img src="https://github.com/user-attachments/assets/ba84787e-ea62-4e62-ba6d-7d1c4d570932" alt="Fan settings with a temperature curve" width="480" />
 </p>
 
 - **Name it**, for example "Front intake" or "Radiator".
@@ -126,7 +126,7 @@ Silence stops the sound for the current problem only. The banner stays until the
 Click the **waveform icon** in the header to open the Sensor List beside the dashboard. It shows every sensor Guardian can read (temperatures, fans, clocks, voltages, power, loads and more), grouped by device and updating live. **Copy All** copies the whole list as text, which is useful for troubleshooting.
 
 <p align="center">
-  <img src="images/sensors.png" alt="Sensor List next to the dashboard" width="760" />
+  <img src="https://github.com/user-attachments/assets/367b7955-af62-4728-b55c-f890c846b826" alt="Sensor List next to the dashboard" width="760" />
 </p>
 
 ---
@@ -146,14 +146,14 @@ Click the **gear icon** in the header.
 - Turn each alarm trigger on or off.
 
 <p align="center">
-  <img src="images/options-alerts.png" alt="Options, Alerts tab" width="560" />
+  <img src="https://github.com/user-attachments/assets/35cb75c9-517d-4101-a1b6-33a19fba0079" alt="Options, Alerts tab" width="560" />
 </p>
 
 **About**
 - Version, change log, credits, and **Check for Updates**.
 
 <p align="center">
-  <img src="images/options-about.png" alt="Options, About tab" width="560" />
+  <img src="https://github.com/user-attachments/assets/71cfeb58-16d1-4476-be81-d8c55e055d35" alt="Options, About tab" width="560" />
 </p>
 
 ---
