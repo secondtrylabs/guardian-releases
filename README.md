@@ -36,11 +36,14 @@ Developed by **SecondTry Labs**
 1. Download `Guardian-Setup-x.x.x.exe` from the [Releases](https://github.com/secondtrylabs/guardian-releases/releases) page.
 2. Run the installer. It installs to `C:\Program Files\Guardian` and adds Start Menu and desktop shortcuts.
 3. Leave **Start Guardian** ticked on the last page.
+4. Pin the temperatures to your taskbar. Windows hides new tray icons at first, so click the **^** next to the clock and drag both Guardian temperatures onto the taskbar:
+
+   <img src="https://github.com/user-attachments/assets/cc04452b-6cf8-4304-b908-61be44b9541c" alt="Guardian's CPU and GPU temperatures pinned next to the clock" width="120" />
 
 **System requirements**
 - Windows 10 or 11, 64-bit
 - Administrator rights. Guardian reads CPU temperatures and controls fans through a hardware driver, which Windows only allows for administrators.
-- The **PawnIO** driver for CPU temperatures and motherboard fans. If it's missing, Guardian offers to install it on first launch. Without it, GPU readings still work.
+- The **PawnIO** driver for CPU temperatures and motherboard fans. It's included: the installer offers to install it if it's missing, and updates an older version automatically. Without it, GPU readings still work.
 - Built and tested on an AMD Ryzen CPU with an NVIDIA GeForce GPU.
 
 > **Note:** The installer isn't code-signed yet, so Windows SmartScreen may show "Windows protected your PC". Click **More info**, then **Run anyway**.
