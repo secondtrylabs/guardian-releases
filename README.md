@@ -20,6 +20,7 @@ Developed by **SecondTry Labs**
 
 - [Installation](#installation)
 - [Tray Temperatures](#tray-temperatures)
+- [Desktop Overlay](#desktop-overlay)
 - [Dashboard](#dashboard)
 - [Cooling and Fan Control](#cooling-and-fan-control)
 - [Alarms](#alarms)
@@ -36,9 +37,6 @@ Developed by **SecondTry Labs**
 1. Download `Guardian-Setup-x.x.x.exe` from the [Releases](https://github.com/secondtrylabs/guardian-releases/releases) page.
 2. Run the installer. It installs to `C:\Program Files\Guardian` and adds Start Menu and desktop shortcuts.
 3. Leave **Start Guardian** ticked on the last page.
-4. Pin the temperatures to your taskbar. Windows hides new tray icons at first, so click the **^** next to the clock and drag both Guardian temperatures onto the taskbar:
-
-   <img src="https://github.com/user-attachments/assets/cc04452b-6cf8-4304-b908-61be44b9541c" alt="Guardian's CPU and GPU temperatures pinned next to the clock" width="120" />
 
 **System requirements**
 - Windows 10 or 11, 64-bit
@@ -61,6 +59,29 @@ Guardian puts two live temperatures next to the clock:
 The numbers turn **amber** when a chip gets warm and **red** when it reaches its Hot threshold. Hover for details, click either one to open Guardian, and right-click for **Open Guardian** and **Exit**.
 
 > **Tip:** Windows hides new tray icons at first. Click the **^** next to the clock and drag both temperatures onto the taskbar to keep them visible.
+
+---
+
+## Desktop Overlay
+
+A small always-on-top CPU and GPU panel you can park anywhere, including right on the taskbar of a second monitor, so you can watch temperatures while gaming. Game windows hide the tray, but not a second screen.
+
+<img src="https://github.com/user-attachments/assets/633bf270-bf68-4b7d-9e57-20a9a680bb8f" alt="Locked overlay blending into the taskbar" width="363" />
+
+Turn it on in **Options → General → Display → Desktop Overlay**. It shows each chip's **temperature**, **load** and **power**, and the temperatures turn **amber** when warm and **red** at the Hot threshold.
+
+**Placing it**
+
+<img src="https://github.com/user-attachments/assets/acb42534-ea11-418c-b3ae-288c50923394" alt="Unlocked overlay with the Guardian shield, ready to drag" width="395" />
+
+- While **unlocked**, the overlay shows a card and the Guardian shield so it's easy to find. Drag it wherever you want it.
+- Then **lock** it with **Lock Overlay Position** in Options, or by right-clicking it and choosing **Lock Position**. Once locked it blends into the taskbar, and matches a light or dark taskbar automatically.
+- Clicking a locked overlay opens Guardian. While unlocked, double-click opens it.
+- It remembers where you left it, and stays anchored by its right edge, so changing numbers never push it into the clock.
+
+**Right-click** it for **Open Guardian**, **Silence Alarm** (while an alarm is ringing), **Lock Position** or **Unlock Position**, **Hide Overlay** and **Exit Guardian**. While an alarm is ringing, its border pulses red.
+
+> **Tip:** Using the overlay instead of the tray? Turn off **Tray Temperatures** in Options. Guardian then keeps a single icon in the tray for its menu and alarm notifications.
 
 ---
 
